@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">Hello</h1>
+    <p class="para">Welcome</p>
+    <button>Click</button>
+    <button>Submit</button>
+    <h2 id="heading">khah ho bhai</h2>
+    <!-- JAVASCRIPT -->
+    <script>
+      const heading = document.getElementById("title");
+
+      console.log(heading);
+
+      const para = document.getElementsByClassName("para");
+
+      console.log(para);
+
+      const btn = document.querySelector("button");
+      console.log(btn);
+
+      const btn1 = document.querySelectorAll("button");
+      console.log(btn1);
+
+      const inputText = document.getElementById("inputText");
+
+      const p = document.createElement("p");
+
+      p.innerText = "New Paragraph";
+
+      document.body.appendChild(p);
+    </script>
+  </body>
+</html>
