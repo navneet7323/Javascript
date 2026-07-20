@@ -3,30 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Events</title>
+    <title>Document</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+        background-color: dodgerblue;
+        border: 1px solid springgreen;
+      }
+    </style>
   </head>
   <body>
-    <button onclick="changeText()">click</button>
-    <h1 id="title">Hello</h1>
+    <button id="mode">Change Mode</button>
+    <button id="btn1">BTN 1</button>
+    <button id="btn2">BTN 2</button>
+    <button id="mybtn">BTN 3</button>
+    <button ondblclick="console.log('button was clicked 2X times')">
+      Click Me 2 times
+    </button>
 
-    <button id="btn">Alert</button>
-
-    <button id="sub">Submit</button>
-
-    <select id="city">
-      <option>Delhi</option>
-      <option>Mumbai</option>
-      <option>Banglore</option>
-    </select>
-
-    <input id="box" />
-
-    <textarea id="text"></textarea>
-
-    <h2>
-      Characters:
-      <span id="count">0</span>
-    </h2>
+    <div>this is a box</div>
+    <div id="div2">this is 2nd box</div>
     <script src="script.js"></script>
   </body>
 </html>

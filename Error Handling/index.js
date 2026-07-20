@@ -1,8 +1,3 @@
-console.lo;
-g(a);
-
-// /without Error Handling
-
 console.log("Start");
 
 let result = 10 / 0;
@@ -10,8 +5,6 @@ let result = 10 / 0;
 console.log(a);
 
 console.log("End");
-
-// with error handling
 
 console.log("Start");
 
@@ -45,4 +38,26 @@ try {
   console.log(divide(10, 2));
 } catch (err) {
   console.log(err.message);
+}
+
+try {
+  let result = 10 / 0;
+  console.log(result);
+
+  console.log(user.name);
+} catch (error) {
+  console.log("An error occurred:", error.message);
+}
+
+function divide(a, b) {
+  if (b === 0) {
+    throw new Error("Division by zero is not allowed");
+  }
+  return a / b;
+}
+
+try {
+  console.log(divide(10, 1));
+} catch (error) {
+  console.log(error.message);
 }

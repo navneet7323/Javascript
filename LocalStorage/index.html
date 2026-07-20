@@ -4,18 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      form {
+        background-color: aqua;
+        padding: 30px;
+        color: rgb(156, 63, 78);
+        border-radius: 10px;
+      }
+
+      div {
+        margin: 10px;
+      }
+
+      button {
+        background-color: aquamarine;
+        border: none;
+        padding: 5px;
+        color: brown;
+      }
+    </style>
   </head>
   <body>
-    <p id="demo"></p>
+    <form id="userForm">
+      <div>
+        <label for="username">Name:</label>
+        <input type="text" name="" id="username" />
+      </div>
+      <div>
+        <label for="useremail">Email:</label>
+        <input type="email" name="" id="useremail" />
+      </div>
+      <button type="submit">Save Data</button>
+    </form>
 
-
-
-
-    <p><button onclick="clickcount()">Click me</button></p>
-    <p id="click">Number of click</p>
-
-
-    
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,19 +1,23 @@
-// console.log("Start");
+// async function greet() {
+//   return "Hello";
+// }
+// greet().then((data) => {
+//   console.log(data);
+// });
 
-// console.log("Learning JavaScript");
+// async function getUser() {
+//   try {
+//     const response = await fetch(
+//       "https://jsonplaceholder.typicode.com/users/1",
+//     );
+//     const data = await response.json();
 
-// console.log("End");
+//     console.log(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
 
-// console.log("Start");
+// getUser();
 
-// setTimeout(() => {
-//   console.log("Inside Timer");
-// }, 3000);
 
-// console.log("End");
-
-// let count = 1;
-
-// const id = setInterval(() => {
-//   console.log(count++);
-// }, 1000);

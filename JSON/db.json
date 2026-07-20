@@ -1,0 +1,123 @@
+{
+  "userId": 101,
+  "username": "navneet123",
+  "fullName": "Navneet Kumar",
+  "email": "navneet@gmail.com",
+  "phone": "+91-9876543210",
+  "age": 23,
+  "isVerified": true,
+  "walletBalance": 1250.75,
+  "referralCode": null,
+
+  "address": {
+    "houseNo": "A-101",
+    "street": "JP Nagar Phase 6",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "pincode": 560078
+  },
+
+  "skills": ["HTML", "CSS",  "JavaScript", "React", "Node.js"],
+
+  "education": [
+    {
+      "degree": "10th",
+      "board": "CBSE",
+      "percentage": 78.9,
+      "year": 2019
+    },
+    {
+      "degree": "12th",
+      "board": "BSEB",
+      "percentage": 77.4,
+      "year": 2021
+    },
+    {
+      "degree": "B.Tech",
+      "branch": "Computer Science",
+      "college": "BCET",
+      "semester": 8,
+      "cgpa": 8.1
+    }
+  ],
+
+  "cart": [
+    {
+      "productId": 1,
+      "name": "Laptop",
+      "brand": "Dell",
+      "price": 65000,
+      "quantity": 1,
+      "inStock": true
+    },
+    {
+      "productId": 2,
+      "name": "Wireless Mouse",
+      "brand": "Logitech",
+      "price": 899,
+      "quantity": 2,
+      "inStock": true
+    }
+  ],
+
+  "orders": [
+    {
+      "orderId": "ORD1001",
+      "orderDate": "2026-07-15",
+      "status": "Delivered",
+      "paymentMethod": "UPI",
+      "totalAmount": 66800,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Laptop",
+          "price": 65000,
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "name": "Wireless Mouse",
+          "price": 900,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+
+  "wishlist": [
+    {
+      "productId": 10,
+      "name": "Smart Watch"
+    },
+    {
+      "productId": 11,
+      "name": "Bluetooth Earbuds"
+    }
+  ],
+
+  "socialLinks": {
+    "github": "https://github.com/navneet7323",
+    "linkedin": "https://linkedin.com/in/navneet",
+    "portfolio": "https://navneet.dev"
+  },
+
+  "settings": {
+    "darkMode": true,
+    "language": "English",
+    "notifications": {
+      "email": true,
+      "sms": false,
+      "push": true
+    }
+  },
+
+  "bankDetails": {
+    "bankName": "State Bank of India",
+    "accountNumber": "XXXX1234",
+    "ifsc": "SBIN0001234"
+  },
+
+  "createdAt": "2026-01-10T09:30:00Z",
+  "lastLogin": "2026-07-16T20:15:00Z"
+}
